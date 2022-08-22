@@ -3,12 +3,13 @@ using namespace std;
 
 void solve()
 {
-    string str;
-    cin>>str;
-    int n = count(str.begin(),str.end(),'4');
-    cout<<n<<endl;
-
-    
+    int n,x,p;
+    cin>>n>>x>>p;
+    int i = (x*3)-((n-x)*1);
+    if(p<=i)
+        cout<<"PASS"<<endl;
+    else
+        cout<<"FAIL"<<endl;
 }
 
 int main()
@@ -20,5 +21,5 @@ int main()
         solve();
     }
 
-     return 0;    
-}  
+    return 0;    
+}

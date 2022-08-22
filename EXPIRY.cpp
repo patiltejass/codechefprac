@@ -3,11 +3,6 @@ using namespace std;
 
 void solve()
 {
-    string str;
-    cin>>str;
-    int n = count(str.begin(),str.end(),'4');
-    cout<<n<<endl;
-
     
 }
 
@@ -20,5 +15,5 @@ int main()
         solve();
     }
 
-     return 0;    
-}  
+    return 0;    
+}

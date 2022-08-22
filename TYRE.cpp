@@ -3,12 +3,9 @@ using namespace std;
 
 void solve()
 {
-    string str;
-    cin>>str;
-    int n = count(str.begin(),str.end(),'4');
-    cout<<n<<endl;
-
-    
+    int m,n;
+    cin>>m>>n;
+    cout<<m*2+n*4<<endl;
 }
 
 int main()
@@ -20,5 +17,5 @@ int main()
         solve();
     }
 
-     return 0;    
-}  
+    return 0;    
+}

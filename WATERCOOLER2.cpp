@@ -3,12 +3,12 @@ using namespace std;
 
 void solve()
 {
-    string str;
-    cin>>str;
-    int n = count(str.begin(),str.end(),'4');
-    cout<<n<<endl;
-
-    
+    int x,y;
+    cin>>x>>y;
+    if(y%x==0)
+        cout<<(y/x)-1<<endl;
+    else
+        cout<<y/x<<endl;
 }
 
 int main()
@@ -20,5 +20,5 @@ int main()
         solve();
     }
 
-     return 0;    
-}  
+    return 0;    
+}

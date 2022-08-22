@@ -3,11 +3,13 @@ using namespace std;
 
 void solve()
 {
-    string str;
-    cin>>str;
-    int n = count(str.begin(),str.end(),'4');
-    cout<<n<<endl;
-
+    int x,m,n;
+    cin>>x>>m>>n;
+    if((m+n*2)>=x)
+        cout<<"Qualify"<<endl;
+    else
+        cout<<"NotQualify"<<endl;
+    
     
 }
 
@@ -20,5 +22,5 @@ int main()
         solve();
     }
 
-     return 0;    
-}  
+    return 0;    
+}
